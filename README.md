@@ -1,0 +1,2 @@
+# bsearch
+Search, but binary
