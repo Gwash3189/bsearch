@@ -54,6 +54,13 @@ export function search<A, T>(
   return { value: null, index: -1 };
 }
 
+/**
+ * Default comparison function for numbers
+ *
+ * @param {number} a - First number
+ * @param {number} b - Second number
+ * @returns {number} - Comparison result
+ */
 export function compareNumbers(a: number, b: number): number {
   if (a < b) return -1;
   if (a > b) return 1;
