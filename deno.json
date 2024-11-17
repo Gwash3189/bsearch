@@ -1,0 +1,23 @@
+{
+  "tasks": {
+    "dev": "deno run --watch mod.ts",
+    "test": "deno test mod_test.ts --allow-read",
+    "test:watch": "deno run test --watch",
+    "ok": "deno fmt && deno run test"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@^1.0.8",
+    "@std/expect": "jsr:@std/expect@^1.0.8",
+    "@std/testing": "jsr:@std/testing@^1.0.5"
+  },
+  "name": "@gwash3189/bsearch",
+  "version": "0.1.0",
+  "exports": "./mod.ts",
+  "publish": {
+    "include": [
+      "mod.ts",
+      "README.md",
+      "LICENSE"
+    ]
+  }
+}
