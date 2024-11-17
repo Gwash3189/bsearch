@@ -11,7 +11,7 @@
     "@std/testing": "jsr:@std/testing@^1.0.5"
   },
   "name": "@gwash3189/bsearch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "exports": "./mod.ts",
   "publish": {
     "include": [
